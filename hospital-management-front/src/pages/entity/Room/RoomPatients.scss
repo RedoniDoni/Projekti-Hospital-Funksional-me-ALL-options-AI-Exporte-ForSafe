@@ -1,0 +1,45 @@
+.room-patients-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .room-card {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .room-card h3 {
+    margin: 0 0 10px;
+  }
+  
+  .patient-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .patient-table th,
+  .patient-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .patient-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .patient-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .room-container{
+    margin: 20px;
+  }

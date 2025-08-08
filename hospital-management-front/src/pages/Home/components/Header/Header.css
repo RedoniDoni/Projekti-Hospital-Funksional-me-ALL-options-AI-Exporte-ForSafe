@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.header-content{
+    display: flex;
+    gap: 20px;
+    align-items:center;
+}
+.header-content p{
+    color: #1c558b;
+    font-size: 16px;
+    font-weight: 700;
+}
+.header-img{
+    width: 80px;
+    height: 80px;
+}
+.header-content-login{
+    background-color: #1c558b;
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+}

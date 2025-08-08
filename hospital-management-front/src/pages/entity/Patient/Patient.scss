@@ -1,0 +1,163 @@
+.nurse-container {
+    padding: 20px;
+  }
+  
+  .nurse-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+  
+    th {
+      background-color: #f4f4f4;
+    }
+  }
+
+  .add-patient-page h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nurse-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+    input,
+    .ant-select {
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  
+    button {
+      width: 150px;
+      margin: 0 auto;
+    }
+  }
+  
+  .add-button,
+  .edit-button,
+  .delete-button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    background-color: #007bff;
+    cursor: pointer;
+  }
+
+  .details-button{
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    background-color: #96a4b2;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+  }
+  
+  .add-button:hover,
+  .edit-button:hover,
+  .delete-button:hover {
+    opacity: 0.8;
+  }
+  .patient-details-container {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .patient-details-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .patient-details-container p {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  
+  .patient-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+  }
+  
+  .patient-info,
+  .appointments-list,
+  .diagnoses-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .patient-info-item,
+  .appointment-item,
+  .diagnosis-item {
+    margin-bottom: 12px;
+    font-size: 1rem;
+  }
+  
+  .patient-info-item strong,
+  .appointment-item strong,
+  .diagnosis-item strong {
+    color: #34495e;
+  }
+  
+  .appointment-item,
+  .diagnosis-item {
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointment-item div,
+  .diagnosis-item div {
+    margin-bottom: 8px;
+  }
+  
+  .appointments-list,
+  .diagnoses-list {
+    margin-top: 20px;
+  }
+  
+  .appointment-item:last-child,
+  .diagnosis-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .patient-details-container {
+      padding: 15px;
+    }
+  
+    .section-title {
+      font-size: 1.25rem;
+    }
+  
+    .patient-info-item {
+      font-size: 0.9rem;
+    }
+  }
+  

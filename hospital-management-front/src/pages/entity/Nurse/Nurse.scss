@@ -1,0 +1,64 @@
+.nurse-container {
+  padding: 20px;
+}
+
+.add-nurse-page h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nurse-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f4f4f4;
+  }
+}
+
+.nurse-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  input,
+  .ant-select {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  button {
+    width: 150px;
+    margin: 0 auto;
+  }
+}
+
+.add-button,
+.edit-button,
+.delete-button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  color: black;
+  background-color: black;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.add-button:hover,
+.edit-button:hover,
+.delete-button:hover {
+  opacity: 0.8;
+}
